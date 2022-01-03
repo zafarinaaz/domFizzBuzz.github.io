@@ -28,8 +28,8 @@ function Angka () {
             hasil.innerHTML='FizzBuzz';
             console.log('FizzBuzz');   
         } else if(i==undefined || i==0){
-            hasil.innerHTML='Salah cuksss';
-            console.log('Salah cuksss');
+            hasil.innerHTML='invalid gengss';
+            console.log('invalid gengss');
         } else if(i%3==0){
             hasil.innerHTML='Fizz';
             console.log('Fizz');
