@@ -48,7 +48,7 @@ function Angka(){
     var Angka = document.getElementById('inputText').value;
     for (i=1; i <101; i ++ ){
         if(Angka==undefined || Angka==0){
-            hasil.innerHTML= 'Salah cuk';
+            hasil.innerHTML= 'invalid gengss!';
             console.log('Salah cuk'); 
         } else if(Angka%3==0 && Angka%5==0){
             hasil.innerHTML='FizzBuzz';
