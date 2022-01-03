@@ -49,7 +49,7 @@ function Angka(){
     for (i=1; i <101; i ++ ){
         if(Angka==undefined || Angka==0){
             hasil.innerHTML= 'invalid gengss!';
-            console.log('Salah cuk'); 
+            console.log('invalid gengss!'); 
         } else if(Angka%3==0 && Angka%5==0){
             hasil.innerHTML='FizzBuzz';
             console.log('FizzBuzz');
